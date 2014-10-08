@@ -71,7 +71,7 @@ function snakeUpdate() {
 }
 
 function foodInitialize() {
-    foodSize = 30;
+    foodSize = 20;
     
     food = {
         x: 0,
