@@ -5,3 +5,35 @@ body {
 #game-screen {
     display: block;
 }
+
+#gameOver, #playHUD {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    color: purple;
+    text-align: center;
+}
+
+.title {
+    font-size: 96px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 200px;
+}
+
+.restartButton {
+    border: 2px solid purple;
+    border-radius: 180px;
+    margin-left: 200px;
+}
+
+.restartButton:hover {
+    background-color: #cccccc;
+}
+
+#scoreboard {
+    margin: 0px;
+}
